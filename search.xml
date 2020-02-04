@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>The World</title>
+    <url>/2020/02/04/World/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/2020/02/04/World/World.jpg" alt="咋瓦鲁多"></p>
+]]></content>
+      <categories>
+        <category>媒介</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>自我学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一次Debug</title>
+    <url>/2020/02/03/%E7%AC%AC%E4%B8%80%E6%AC%A1debug/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>谨以此文记录我生平第一次的Debug经历。<font color="#0000FF" size="2">（着实有点虐…瑟瑟发抖.gif）<br><font color="#A52A2A" size="4"><strong>| Bug 描述</strong><br><font color="#000000" size="3"> 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。<font color="#0000FF" size="2"> （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）<br><font color="#A52A2A" size="4"><strong>| 可能的Bug原因分析</strong><br><font color="#000000" size="3"> 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（categories）这一项生成的index.html会自动的被替换为Index. html来发布。所以可能是大小写不一致导致了部署之后页面无法显示？（截图如下）<br><img src="https://img-blog.csdnimg.cn/20200204113829580.png" alt="如上图所示"><br><font color="#000000" size="3"> 2、categories生成阶段操作错误？<br><font color="#000000" size="3"> 3、categories为关键字段，触发了与本博客框架中更加底层的某种神秘物质的冲突？<font color="#0000FF" size="2"> （具体是啥我也说不上来，总之也许大概瞎猜会有这种可能性吧<del>~</del>）</font></font></font></font></font></font></font></font></font></p>
+<p><font color="#000000" size="3">（PS：因为菜单栏里其余各项均能实现本地和在Github上的同步正常显示，故应该可以排除初始配置方面的问题…吧…）<font color="#0000FF" size="2"> （心中默念一万遍哦弥陀佛，千万千万别是初始配置错误呀，搞不好还得推倒重来那个可真的要吐血了口牙！！！！我太南了╮(╯▽╰)╭）</font></font></p>
+<p><font color="#A52A2A" size="4"><strong>| 可能的Debug解决方案</strong><del>（重头戏终于来了）</del><br><font color="#000000" size="3"> 1、针对上述第一种可能性，暂未找到对症的攻略；尝试了网上给出的各种方法，均不奏效<br><font color="#000000" size="3"> 2、针对上述第二种可能性，已排除<br><font color="#000000" size="3"> 3、针对上述第三种可能性，不知如何入手，暂未找到“解药”</font></font></font></font></p>
+<p><font color="#A52A2A" size="4"><strong>| 一点心得与吐槽</strong><br><font color="#000000" size="3"> 1、Debug是一个很考验耐心和脑洞的环节。有时候折腾几个小时，一通骚操作下来，发现居然只是大小写，空格，中英文输入法之类的问题。<font color="#0000FF" size="2"> （别问我是怎么知道的 (lll￢ω￢)）</font></font></font></p>
+<p><font color="#000000" size="3"> 2、专业壁垒这种东西，克服起来需要双方的努力。比如像我这种对电脑编程一无所知的纯种小白，在本次搭博客这件事情上真的特别感谢网上各位前辈们的攻略与指导建议，可即便有各路大神加持，也还是得靠自己一点点去啃去试<font color="#0000FF" size="2">（这里请容我小声BB两句：大神们，你们所谓的“零基础”、“小白”的傻瓜教程，真的一点也不傻瓜好吗? /弱小可怜又无助.jpg）</font></font></p>
+<p><font color="#000000" size="3"> 3、Debug是个一直在解决问题的过程，难免有受挫的时候。每当这个时候，就容易诸如心烦、易怒、懵逼、自我怀疑等不良反应，此时应保持冷静并及时调整情绪，以能解决问题为导向需求解决方案，实在不行可以先处理其他问题或者干脆先放一下去干点别的事情，比如像我就会去打一会儿游戏<font color="#0000FF" size="2">（可是谁能告诉我，为什么要把the last of us做的辣么好玩，可剧情真的太恐怖了啦~还有为什么watchdog2主线剧情辣么短嘛！Errrr…我是不是跑题了 ,,ԾㅂԾ,,）</font></font></p>
+<p><font color="#000000" size="3"> 4、有时候为了整体结果，也许不得不暂时选择绕开甚至舍弃某些功能。或者这听起来不够“刚”，但也不失为一种权益之计。无论是哪一种，总比一味埋头在死胡同里面打转的强。</font></p>
+]]></content>
+      <categories>
+        <category>媒介</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>自我学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/02/01/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+    <div id="aplayer-fjPQbJaT" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="60198" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+
+]]></content>
+  </entry>
+</search>
