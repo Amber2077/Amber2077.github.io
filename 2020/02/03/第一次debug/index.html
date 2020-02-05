@@ -79,20 +79,18 @@
 
 
 
-<meta name="description" content="谨以此文记录我生平第一次的Debug经历。（着实有点虐…瑟瑟发抖.gif）| Bug 描述 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。 （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）| 可能的Bug原因分析 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（ca">
+<meta name="description" content="function doDecrypt (pwd, onError) { 	console.log(&#39;in doDecrypt&#39;); 	const txt &#x3D; document.getElementById(&#39;enc_content&#39;).innerHTML; 	let plantext; 	try { 		const bytes &#x3D; CryptoJS.AES.decrypt(txt, pwd);">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一次Debug">
 <meta property="og:url" content="https://amber2077.github.io/2020/02/03/%E7%AC%AC%E4%B8%80%E6%AC%A1debug/index.html">
 <meta property="og:site_name" content="Amber&#39;s Blog">
-<meta property="og:description" content="谨以此文记录我生平第一次的Debug经历。（着实有点虐…瑟瑟发抖.gif）| Bug 描述 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。 （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）| 可能的Bug原因分析 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（ca">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200204113829580.png">
+<meta property="og:description" content="function doDecrypt (pwd, onError) { 	console.log(&#39;in doDecrypt&#39;); 	const txt &#x3D; document.getElementById(&#39;enc_content&#39;).innerHTML; 	let plantext; 	try { 		const bytes &#x3D; CryptoJS.AES.decrypt(txt, pwd);">
 <meta property="article:published_time" content="2020-02-03T07:15:39.000Z">
-<meta property="article:modified_time" content="2020-02-04T09:41:04.701Z">
+<meta property="article:modified_time" content="2020-02-05T09:24:35.254Z">
 <meta property="article:author" content="Amber">
 <meta property="article:tag" content="博客">
 <meta property="article:tag" content="自我学习">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200204113829580.png">
 
 
 
@@ -392,7 +390,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  885
+                  272
                 </span>
               
 
@@ -417,14 +415,35 @@
       
 
       
-        <p>谨以此文记录我生平第一次的Debug经历。<font color="#0000FF" size="2">（着实有点虐…瑟瑟发抖.gif）<br><font color="#A52A2A" size="4"><strong>| Bug 描述</strong><br><font color="#000000" size="3"> 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。<font color="#0000FF" size="2"> （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）<br><font color="#A52A2A" size="4"><strong>| 可能的Bug原因分析</strong><br><font color="#000000" size="3"> 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（categories）这一项生成的index.html会自动的被替换为Index. html来发布。所以可能是大小写不一致导致了部署之后页面无法显示？（截图如下）<br><img src="https://img-blog.csdnimg.cn/20200204113829580.png" alt="如上图所示"><br><font color="#000000" size="3"> 2、categories生成阶段操作错误？<br><font color="#000000" size="3"> 3、categories为关键字段，触发了与本博客框架中更加底层的某种神秘物质的冲突？<font color="#0000FF" size="2"> （具体是啥我也说不上来，总之也许大概瞎猜会有这种可能性吧<del>~</del>）</font></font></font></font></font></font></font></font></font></p>
-<p><font color="#000000" size="3">（PS：因为菜单栏里其余各项均能实现本地和在Github上的同步正常显示，故应该可以排除初始配置方面的问题…吧…）<font color="#0000FF" size="2"> （心中默念一万遍哦弥陀佛，千万千万别是初始配置错误呀，搞不好还得推倒重来那个可真的要吐血了口牙！！！！我太南了╮(╯▽╰)╭）</font></font></p>
-<p><font color="#A52A2A" size="4"><strong>| 可能的Debug解决方案</strong><del>（重头戏终于来了）</del><br><font color="#000000" size="3"> 1、针对上述第一种可能性，暂未找到对症的攻略；尝试了网上给出的各种方法，均不奏效<br><font color="#000000" size="3"> 2、针对上述第二种可能性，已排除<br><font color="#000000" size="3"> 3、针对上述第三种可能性，不知如何入手，暂未找到“解药”</font></font></font></font></p>
-<p><font color="#A52A2A" size="4"><strong>| 一点心得与吐槽</strong><br><font color="#000000" size="3"> 1、Debug是一个很考验耐心和脑洞的环节。有时候折腾几个小时，一通骚操作下来，发现居然只是大小写，空格，中英文输入法之类的问题。<font color="#0000FF" size="2"> （别问我是怎么知道的 (lll￢ω￢)）</font></font></font></p>
-<p><font color="#000000" size="3"> 2、专业壁垒这种东西，克服起来需要双方的努力。比如像我这种对电脑编程一无所知的纯种小白，在本次搭博客这件事情上真的特别感谢网上各位前辈们的攻略与指导建议，可即便有各路大神加持，也还是得靠自己一点点去啃去试<font color="#0000FF" size="2">（这里请容我小声BB两句：大神们，你们所谓的“零基础”、“小白”的傻瓜教程，真的一点也不傻瓜好吗? /弱小可怜又无助.jpg）</font></font></p>
-<p><font color="#000000" size="3"> 3、Debug是个一直在解决问题的过程，难免有受挫的时候。每当这个时候，就容易诸如心烦、易怒、懵逼、自我怀疑等不良反应，此时应保持冷静并及时调整情绪，以能解决问题为导向需求解决方案，实在不行可以先处理其他问题或者干脆先放一下去干点别的事情，比如像我就会去打一会儿游戏<font color="#0000FF" size="2">（可是谁能告诉我，为什么要把the last of us做的辣么好玩，可剧情真的太恐怖了啦~还有为什么watchdog2主线剧情辣么短嘛！Errrr…我是不是跑题了 ,,ԾㅂԾ,,）</font></font></p>
-<p><font color="#000000" size="3"> 4、有时候为了整体结果，也许不得不暂时选择绕开甚至舍弃某些功能。或者这听起来不够“刚”，但也不失为一种权益之计。无论是哪一种，总比一味埋头在死胡同里面打转的强。</font></p>
-
+        <script src=/js/crypto-js.js></script>
+<script>
+function doDecrypt (pwd, onError) {
+	console.log('in doDecrypt');
+	const txt = document.getElementById('enc_content').innerHTML;
+	let plantext;
+	try {
+		const bytes = CryptoJS.AES.decrypt(txt, pwd);
+		var plaintext = bytes.toString(CryptoJS.enc.Utf8);
+	} catch(err) {
+		if(onError) {
+			onError(err);
+		}
+		return;
+	}
+	document.getElementById('enc_content').innerHTML = plaintext;
+	document.getElementById('enc_content').style.display = 'block';
+	document.getElementById('enc_passwd').style.display = 'none';
+	if(typeof MathJax !== 'undefined') {
+		MathJax.Hub.Queue(
+			['resetEquationNumbers', MathJax.InputJax.TeX],
+			['PreProcess', MathJax.Hub],
+			['Reprocess', MathJax.Hub]
+		);
+	}
+}
+</script>
+<div id="enc_content" style="display:none">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</div>
+<div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="提交密码" onclick="decrypt()" style=" width: 80px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML="密码错误!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>
       
     </div>
     
@@ -642,7 +661,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">1.1k</span>
+    <span title="Site words total count">345</span>
   
 </div>
 
