@@ -5,7 +5,7 @@
     <url>/2020/02/04/World/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/2020/02/04/World/OIP.jfif" alt="Humans"><br>你可曾想象，所谓智能，其实是一大堆神经元之间，那些复杂而抽象的小动作？<br>你可曾想象，用蚂蚁代替神经元，将这个巨大的蚂蚁网络看成一个大脑？<br>你可曾想象，用晶体管代替神经元，让这个人工神经网络产生自主思想？<br>你可曾想象，用软件来模拟这个结构，使一台普通的计算机拥有智能、灵魂和自由的意志？<br>你可曾想象，无论是生物还是电子，各种不同的物理基础都能产生思维和感觉？<br>你可曾想象，一台机器能够流畅地使用人类的语言，与人类一起畅所欲言？<br>你可曾想象，这台口齿伶俐的机器，其实如计算器和打字机一样，空虚而缺乏思想？<br>你可曾想象，如何分辨真正的自我思维和这种口齿伶俐的机器假象？<br>你可曾想象，在意识和思维方面，人类以其傲慢与偏见，一直都在误解机器？<br>你可曾想象，机器可以由它自己做出独立的决策？<br>你可曾想象，机器可以拥有自己的信仰？<br>你可曾想象，机器也会犯错误？<br>你可曾想象，机器坚信，自己拥有独立的思维、自主的意识？<br>你可曾想象，机器可以提出自己的看法，并不需要人类在编程时告诉它？<br>你可曾想象，基于一套固定的运行规则，能够产生创造力和想象力？<br>你可曾想象，其实最聪明的人类，也不能逃脱这套掌控我们的神经元的规则？<br>你可曾想象，机器也有情感？<br>你可曾想象，思维和情感，并不取决于身体的结构和样式？<br>你可曾想象，机器会被诱惑，会欢欣鼓舞，会怡然自醉？<br>你可曾想象，机器会坠入爱河，品尝禁果的滋味？<br>你可曾想象，机器在自己的世界中，也会为社会准则所累？<br>你可曾想象，机器的情侣，也讲究般配，或是不般配？<br>你可曾想象，机器也会沮丧，也会痛苦？<br>你可曾想象，机器也会自我宣泄，摔门而去，狂奔十里？<br>你可曾想象，机器也会在马拉松比赛后，享受痛并快乐着的微妙感觉？<br>你可曾想象，机器也会充满情趣地给自己的妈妈来一场恶作剧？<br>也许，你从未想过这些古怪到极点的问题，但它们却曾经在一个人的脑海中熊熊燃烧了几十年。这个人就是伟大的英国数学家、计算机科学之父，艾伦·马西森·图灵。<br>                                                                                                                                <strong>——节选自《图灵传》之道格拉斯·霍夫斯塔特序言</strong></p>
 
-    <div id="aplayer-QROIjlSX" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0000dWMm3No3pN" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+    <div id="aplayer-rUkoxVas" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0000dWMm3No3pN" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
 
 ]]></content>
       <categories>
@@ -40,21 +40,8 @@
   <entry>
     <title>Hello World</title>
     <url>/2020/02/01/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-    <div id="aplayer-HMEYBkBj" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="001AKKVn18mNI6" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+    <div id="aplayer-fntNKxRq" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="001AKKVn18mNI6" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
 
 ]]></content>
   </entry>
