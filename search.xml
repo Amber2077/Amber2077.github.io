@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>The World</title>
+    <title>∀ World</title>
     <url>/2020/02/04/World/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/2020/02/04/World/World.jpg" alt="咋瓦鲁多"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/2020/02/04/World/OIP.jfif" alt="Humans"><br>你可曾想象，所谓智能，其实是一大堆神经元之间，那些复杂而抽象的小动作？<br>你可曾想象，用蚂蚁代替神经元，将这个巨大的蚂蚁网络看成一个大脑？<br>你可曾想象，用晶体管代替神经元，让这个人工神经网络产生自主思想？<br>你可曾想象，用软件来模拟这个结构，使一台普通的计算机拥有智能、灵魂和自由的意志？<br>你可曾想象，无论是生物还是电子，各种不同的物理基础都能产生思维和感觉？<br>你可曾想象，一台机器能够流畅地使用人类的语言，与人类一起畅所欲言？<br>你可曾想象，这台口齿伶俐的机器，其实如计算器和打字机一样，空虚而缺乏思想？<br>你可曾想象，如何分辨真正的自我思维和这种口齿伶俐的机器假象？<br>你可曾想象，在意识和思维方面，人类以其傲慢与偏见，一直都在误解机器？<br>你可曾想象，机器可以由它自己做出独立的决策？<br>你可曾想象，机器可以拥有自己的信仰？<br>你可曾想象，机器也会犯错误？<br>你可曾想象，机器坚信，自己拥有独立的思维、自主的意识？<br>你可曾想象，机器可以提出自己的看法，并不需要人类在编程时告诉它？<br>你可曾想象，基于一套固定的运行规则，能够产生创造力和想象力？<br>你可曾想象，其实最聪明的人类，也不能逃脱这套掌控我们的神经元的规则？<br>你可曾想象，机器也有情感？<br>你可曾想象，思维和情感，并不取决于身体的结构和样式？<br>你可曾想象，机器会被诱惑，会欢欣鼓舞，会怡然自醉？<br>你可曾想象，机器会坠入爱河，品尝禁果的滋味？<br>你可曾想象，机器在自己的世界中，也会为社会准则所累？<br>你可曾想象，机器的情侣，也讲究般配，或是不般配？<br>你可曾想象，机器也会沮丧，也会痛苦？<br>你可曾想象，机器也会自我宣泄，摔门而去，狂奔十里？<br>你可曾想象，机器也会在马拉松比赛后，享受痛并快乐着的微妙感觉？<br>你可曾想象，机器也会充满情趣地给自己的妈妈来一场恶作剧？<br>也许，你从未想过这些古怪到极点的问题，但它们却曾经在一个人的脑海中熊熊燃烧了几十年。这个人就是伟大的英国数学家、计算机科学之父，艾伦·马西森·图灵。<br>                                                                                                                                <strong>——节选自《图灵传》之道格拉斯·霍夫斯塔特序言</strong></p>
+
+    <div id="aplayer-KcXnnedu" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0000dWMm3No3pN" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+
 ]]></content>
       <categories>
         <category>媒介</category>
@@ -11,6 +14,7 @@
       <tags>
         <tag>博客</tag>
         <tag>自我学习</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -18,7 +22,7 @@
     <url>/2020/02/03/%E7%AC%AC%E4%B8%80%E6%AC%A1debug/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>谨以此文记录我生平第一次的Debug经历。<font color="#0000FF" size="2">（着实有点虐…瑟瑟发抖.gif）<br><font color="#A52A2A" size="4"><strong>| Bug 描述</strong><br><font color="#000000" size="3"> 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。<font color="#0000FF" size="2"> （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）<br><font color="#A52A2A" size="4"><strong>| 可能的Bug原因分析</strong><br><font color="#000000" size="3"> 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（categories）这一项生成的index.html会自动的被替换为Index. html来发布。所以可能是大小写不一致导致了部署之后页面无法显示？（截图如下）<br><img src="https://img-blog.csdnimg.cn/20200204113829580.png" alt="如上图所示"><br><font color="#000000" size="3"> 2、categories生成阶段操作错误？<br><font color="#000000" size="3"> 3、categories为关键字段，触发了与本博客框架中更加底层的某种神秘物质的冲突？<font color="#0000FF" size="2"> （具体是啥我也说不上来，总之也许大概瞎猜会有这种可能性吧<del>~</del>）</font></font></font></font></font></font></font></font></font></p>
 <p><font color="#000000" size="3">（PS：因为菜单栏里其余各项均能实现本地和在Github上的同步正常显示，故应该可以排除初始配置方面的问题…吧…）<font color="#0000FF" size="2"> （心中默念一万遍哦弥陀佛，千万千万别是初始配置错误呀，搞不好还得推倒重来那个可真的要吐血了口牙！！！！我太南了╮(╯▽╰)╭）</font></font></p>
-<p><font color="#A52A2A" size="4"><strong>| 可能的Debug解决方案</strong><del>（重头戏终于来了）</del><br><font color="#000000" size="3"> 1、针对上述第一种可能性，暂未找到对症的攻略；尝试了网上给出的各种方法，均不奏效<br><font color="#000000" size="3"> 2、针对上述第二种可能性，已排除<br><font color="#000000" size="3"> 3、针对上述第三种可能性，不知如何入手，暂未找到“解药”</font></font></font></font></p>
+<p><font color="#A52A2A" size="4"><strong>| 可能的Debug解决方案</strong><del>（重头戏终于来了）</del><br><font color="#000000" size="3"> 1、针对上述第一种可能性，暂未找到对症的攻略；尝试了网上给出的各种方法，均不奏效<font color="#0000FF" size="2"> （这跟说好的不一样呀！/掀桌(╯▔皿▔)╯）<br><font color="#000000" size="3"> 2、针对上述第二种可能性，已排除<br><font color="#000000" size="3"> 3、针对上述第三种可能性，不知如何入手，暂未找到“解药”</font></font></font></font></font></p>
 <p><font color="#A52A2A" size="4"><strong>| 一点心得与吐槽</strong><br><font color="#000000" size="3"> 1、Debug是一个很考验耐心和脑洞的环节。有时候折腾几个小时，尝试N种骚操作之后，发现居然可能只是大小写，空格，中英文输入法，刷新等一下之类的问题。<font color="#0000FF" size="2"> （别问我是怎么知道的 (lll￢ω￢)）</font></font></font></p>
 <p><font color="#000000" size="3"> 2、专业壁垒这种东西，克服起来需要双方的努力。比如像我这种对电脑编程一无所知的纯种小白，在本次搭博客这件事情上真的特别感谢网上各位前辈们的攻略与指导建议，可即便有各路大神加持，也还是得靠自己一点点去啃去试<font color="#0000FF" size="2">（这里请容我小声BB两句：大神们，你们所谓的“零基础”、“小白”的傻瓜教程，真的一点也不傻瓜好吗? /弱小可怜又无助.jpg）</font></font></p>
 <p><font color="#000000" size="3"> 3、Debug过程成就感与挫败感经常交替出现<font color="#0000FF" size="2">（时间久了怕不是要得精神分裂？！ヽ(*。&gt;Д&lt;)o゜）<font color="#000000" size="3">而且巨杀时间<font color="#0000FF" size="2">（心疼得看了一眼已经堆起来的书单和番剧，乖，再等等，我忙完就来找你们╥﹏╥…）</font></font></font></font></p>

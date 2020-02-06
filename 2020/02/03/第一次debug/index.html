@@ -86,7 +86,7 @@
 <meta property="og:description" content="谨以此文记录我生平第一次的Debug经历。（着实有点虐…瑟瑟发抖.gif）| Bug 描述 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。 （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）| 可能的Bug原因分析 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（ca">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20200204113829580.png">
 <meta property="article:published_time" content="2020-02-03T07:15:39.000Z">
-<meta property="article:modified_time" content="2020-02-05T16:50:11.618Z">
+<meta property="article:modified_time" content="2020-02-06T02:58:56.774Z">
 <meta property="article:author" content="Amber">
 <meta property="article:tag" content="博客">
 <meta property="article:tag" content="自我学习">
@@ -371,7 +371,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  855
+                  867
                 </span>
               
 
@@ -398,7 +398,7 @@
       
         <p>谨以此文记录我生平第一次的Debug经历。<font color="#0000FF" size="2">（着实有点虐…瑟瑟发抖.gif）<br><font color="#A52A2A" size="4"><strong>| Bug 描述</strong><br><font color="#000000" size="3"> 菜单栏中“分类”这一项对应的页面在本地预览时能正常显示，但是部署到Github上却一直反馈404找不到页面。<font color="#0000FF" size="2"> （(lll￢ω￢) 为X只有它这样子，一点也不乖嘛 (╯▔皿▔)╯）<br><font color="#A52A2A" size="4"><strong>| 可能的Bug原因分析</strong><br><font color="#000000" size="3"> 1、在对运行Hexo g 和Hexo d后生成的内容进行了逐行检查之后发现：部署阶段，只有“分类”（categories）这一项生成的index.html会自动的被替换为Index. html来发布。所以可能是大小写不一致导致了部署之后页面无法显示？（截图如下）<br><img src="https://img-blog.csdnimg.cn/20200204113829580.png" alt="如上图所示"><br><font color="#000000" size="3"> 2、categories生成阶段操作错误？<br><font color="#000000" size="3"> 3、categories为关键字段，触发了与本博客框架中更加底层的某种神秘物质的冲突？<font color="#0000FF" size="2"> （具体是啥我也说不上来，总之也许大概瞎猜会有这种可能性吧<del>~</del>）</font></font></font></font></font></font></font></font></font></p>
 <p><font color="#000000" size="3">（PS：因为菜单栏里其余各项均能实现本地和在Github上的同步正常显示，故应该可以排除初始配置方面的问题…吧…）<font color="#0000FF" size="2"> （心中默念一万遍哦弥陀佛，千万千万别是初始配置错误呀，搞不好还得推倒重来那个可真的要吐血了口牙！！！！我太南了╮(╯▽╰)╭）</font></font></p>
-<p><font color="#A52A2A" size="4"><strong>| 可能的Debug解决方案</strong><del>（重头戏终于来了）</del><br><font color="#000000" size="3"> 1、针对上述第一种可能性，暂未找到对症的攻略；尝试了网上给出的各种方法，均不奏效<br><font color="#000000" size="3"> 2、针对上述第二种可能性，已排除<br><font color="#000000" size="3"> 3、针对上述第三种可能性，不知如何入手，暂未找到“解药”</font></font></font></font></p>
+<p><font color="#A52A2A" size="4"><strong>| 可能的Debug解决方案</strong><del>（重头戏终于来了）</del><br><font color="#000000" size="3"> 1、针对上述第一种可能性，暂未找到对症的攻略；尝试了网上给出的各种方法，均不奏效<font color="#0000FF" size="2"> （这跟说好的不一样呀！/掀桌(╯▔皿▔)╯）<br><font color="#000000" size="3"> 2、针对上述第二种可能性，已排除<br><font color="#000000" size="3"> 3、针对上述第三种可能性，不知如何入手，暂未找到“解药”</font></font></font></font></font></p>
 <p><font color="#A52A2A" size="4"><strong>| 一点心得与吐槽</strong><br><font color="#000000" size="3"> 1、Debug是一个很考验耐心和脑洞的环节。有时候折腾几个小时，尝试N种骚操作之后，发现居然可能只是大小写，空格，中英文输入法，刷新等一下之类的问题。<font color="#0000FF" size="2"> （别问我是怎么知道的 (lll￢ω￢)）</font></font></font></p>
 <p><font color="#000000" size="3"> 2、专业壁垒这种东西，克服起来需要双方的努力。比如像我这种对电脑编程一无所知的纯种小白，在本次搭博客这件事情上真的特别感谢网上各位前辈们的攻略与指导建议，可即便有各路大神加持，也还是得靠自己一点点去啃去试<font color="#0000FF" size="2">（这里请容我小声BB两句：大神们，你们所谓的“零基础”、“小白”的傻瓜教程，真的一点也不傻瓜好吗? /弱小可怜又无助.jpg）</font></font></p>
 <p><font color="#000000" size="3"> 3、Debug过程成就感与挫败感经常交替出现<font color="#0000FF" size="2">（时间久了怕不是要得精神分裂？！ヽ(*。&gt;Д&lt;)o゜）<font color="#000000" size="3">而且巨杀时间<font color="#0000FF" size="2">（心疼得看了一眼已经堆起来的书单和番剧，乖，再等等，我忙完就来找你们╥﹏╥…）</font></font></font></font></p>
@@ -475,8 +475,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/02/04/World/" rel="prev" title="The World">
-                The World <i class="fa fa-chevron-right"></i>
+              <a href="/2020/02/04/World/" rel="prev" title="∀ World">
+                ∀ World <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -571,7 +571,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -622,7 +622,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">928</span>
+    <span title="Site words total count">1.7k</span>
   
 </div>
 
